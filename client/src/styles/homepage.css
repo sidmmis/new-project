@@ -1,0 +1,16 @@
+/* styles.css */
+
+/* Styling the heading */
+
+h1 {
+    text-align:center ;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling the paragraph text */
+p {
+    color: rgb(200, 233, 200);
+    font-size: 16px;
+    line-height: 1.5;
+}

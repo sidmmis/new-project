@@ -1,0 +1,58 @@
+
+
+  .notice1-container {
+    margin: 100px auto; 
+    overflow: hidden;
+    max-height: none; 
+    position: relative;
+    width: 90%; 
+    
+  }
+  
+  .notice1-list {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    animation: scrollNotice 30s linear infinite; /* Apply the animation to the entire list */
+  }
+  
+  .notice1-item {
+    
+    width: 300px;
+    flex: 0 0 auto;
+    border: 1px solid #e0e0e0;
+    padding: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 20px; /* Adjust spacing between notices */
+    border-radius: 10px; 
+  }
+  
+  .notice1-container:hover .notice1-list {
+    animation-play-state: paused; /* Pause the animation on hover */
+  }
+  
+  @keyframes scrollNotice {
+    0% {
+      transform: translateX(100%); /* Start from the right */
+    }
+    100% {
+      transform: translateX(-100%); /* Move to the left */
+    }
+  }
+  
+  
+  
+ /* styles.css */
+@keyframes marquee {
+  0% {
+    transform: translateX(-60%);
+  }
+  50% {
+    transform: translateX(60%);
+  }
+  100% {
+    transform: translateX(-60%);
+  }
+}

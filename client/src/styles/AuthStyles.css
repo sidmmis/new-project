@@ -1,0 +1,78 @@
+/* ===================================
+========= register page  */
+.form2-container {
+   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 92vh;
+  flex-direction: column;
+  background-color: #ffdee9;
+  background-image: url("./bck.jpeg");
+  background-size: cover;
+
+  
+  }
+  
+  .form2-container form {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .form2-container form .title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .form2-container form input {
+    border: none;
+    text-decoration: none;
+    border-bottom: 1px solid #373434;
+    /* border-radius: 0; */
+    
+  }
+  
+  .form2-container form button {
+    border: 1px solid black;
+    border-radius: 0;
+    background-color: #000;
+    color: white;
+    width: 250px;
+  }
+  
+  .form2-container form button:hover {
+    border: 1px solid black;
+    background: #000000;
+     
+    background: linear-gradient(
+      to right,
+      #e93838,
+      #f10808
+    ); 
+  }
+  
+  .forgot-btn {
+    
+    color: black !important;
+    border: 0 !important;
+    text-decoration: none;
+
+  }
+  
+  .forgot-btn:hover {
+    color: red !important;
+  }
+
+
+  /* Add CSS styles to make the dropdown look and behave nicely */
+
+
+
+  .form2-container form input:focus {
+    outline: none; /* Remove the default focus outline */
+    box-shadow: none; /* Remove any box shadow on focus */
+  }
+

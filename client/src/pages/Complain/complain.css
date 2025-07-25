@@ -1,0 +1,89 @@
+/* ===================================
+========= register page  */
+.form-container {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200vh;
+    flex-direction: column;
+    background-color: #ffdee9;
+   
+    background-size: cover;
+  
+    
+    }
+    .form-container form {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adjust shadow color and intensity as needed */
+        padding: 40px;
+        background-color: #fff;
+        border-radius: 8px;
+      }
+    
+    .form-container form .title {
+      text-align: center;
+      margin-bottom: 15px;
+      font-weight: bold;
+      font-family: "Playfair Display", serif;
+    }
+    
+    .form-container form input {
+      border: none;
+      text-decoration: none;
+      border-bottom: 1px solid #373434;
+      border-radius: 0;
+      height: 50px;
+    }
+    .form-container form label{
+        margin-right: 25px;
+        font-weight: 800;
+    }
+    .form-container form button {
+        margin-top: 25px;
+      
+      border: 1px solid black;
+      border-radius: 6px;
+      background-color: #000;
+      color: white;
+      width: 200px;
+      height: 40px;
+    }
+    
+    .form-container form button:hover {
+      border: 1px solid rgb(41, 38, 38);
+      background: #000000;
+       
+      background: linear-gradient(
+        to right,
+        #914848,
+        #a43737
+      ); 
+    }
+    
+    .forgot-btn {
+      
+      color: black !important;
+      border: 0 !important;
+      text-decoration: none;
+  
+    }
+    
+    .forgot-btn:hover {
+      color: red !important;
+    }
+  
+    .form-container form input:focus {
+        outline: none; /* Remove the default focus outline */
+        box-shadow: none; /* Remove any box shadow on focus */
+      }
+  
+    /* Add CSS styles to make the dropdown look and behave nicely */
+  
+  
+  
+  
+  
+  
+  
+  
+  
